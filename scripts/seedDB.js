@@ -3,7 +3,7 @@ const db = require("../models");
 
 // This file empties the Nightin collection and inserts the nightin below
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nightindb", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/test", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
